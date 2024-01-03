@@ -24,10 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
+![Screenshot 2024-01-03 184443](https://github.com/danielzeljko/blog-preview-card/assets/115326106/60839ee0-55a1-4243-b665-519a3ece4805)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/blog-preview-card-using-vanilla-css-and-bem-methodology-dg04bE9RQl
+- Live Site URL: https://danielzeljko.github.io/blog-preview-card/
 
 ## My process
 
