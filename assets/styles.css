@@ -1,0 +1,136 @@
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+  --base-border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  font-size: 15px;
+  /* font-size: 1vh; */
+  background: var(--Yellow);
+}
+
+.container {
+  padding: 218.5px 0px 219.5px 0px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: var(--White);
+  padding: 24px;
+  width: 384px;
+  border-radius: calc(var(--base-border-radius) * 2);
+  border: 1px solid var(--Black, #111);
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.card__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card__img {
+  border-radius: var(--base-border-radius);
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.badge {
+  color: var(--Black);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.badge--yellow {
+  background: var(--Yellow);
+}
+
+.card__pub-date {
+  color: var(--Black);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card__title {
+  color: var(--Black);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.card__title:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+
+.card__subtitle {
+  color: var(--Grey);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.author {
+  color: var(--Black);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+
+@media (max-width: 600px) {
+  .card {
+    width: 327px;
+  }
+
+  .card__img {
+    width: 279px;
+  }
+
+  .container {
+    padding: 155px 24px 156px 24px;
+  }
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
